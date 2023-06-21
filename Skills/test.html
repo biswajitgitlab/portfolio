@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Skills</title>
+    <link rel="stylesheet" href="test.css">
+</head>
+<body>
+    <div class="container">
+        <div class="card">
+            <div class="box">
+                <div class="chart" data-percent="73">73 <span>%</span></div>
+                    <h2>HTML</h2>
+                </div>
+            </div>
+        
+            <div class="card">
+                <div class="box">
+                    <div class="chart" data-percent="90">90 <span>%</span> </div>
+                        <h2>CSS</h2>
+                   
+                </div>
+            </div>
+                <div class="card">
+                    <div class="box">
+                        <div class="chart" data-percent="55">55 <span>%</span></div>
+                            <h2>JavaScript</h2>
+                        </div>
+                    </div>
+                   
+                    <div class="card">
+                        <div class="box">
+                            <div class="chart" data-percent="70">70 <span>%</span></div>
+                                <h2>Java</h2>
+                    </div>
+                    </div>
+                
+                <div class="card">
+                    <div class="box">
+                        <div class="chart" data-percent="55">55 <span>%</span></div>
+                            <h2>React</h2>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="box">
+                            <div class="chart" data-percent="55">55 <span>%</span></div>
+                                <h2>Git & GitHub</h2>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="box">
+                                <div class="chart" data-percent="55">55 <span>%</span></div>
+                                    <h2>Bootstrap</h2>
+                                </div>
+                            </div>
+                           
+                                <div class="card">
+                                    <div class="box">
+                                        <div class="chart" data-percent="80">80 <span>%</span></div>
+                                            <h2>SQL</h2>
+                                        </div>
+                                    </div>
+                            </div>
+          
+       
+    
+<script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='http://cdnjs.cloudflare.com/ajax/libs/easy-pie-chart/2.1.6/jquery.easypiechart.min.js'></script>
+
+<script type="text/javascript">
+$(function(){
+    $('.chart').easyPieChart({
+        size:160,
+        barColor:"rgba(236, 107, 49, 1)",
+        scaleLength:0,
+        lineWidth:10,
+        trackColor: '#191919',
+        lineCap:"circle",
+        animate:2000,
+    });
+});
+</script>
+
+</body>
+</html>

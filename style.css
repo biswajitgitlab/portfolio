@@ -61,7 +61,7 @@ transition: .3s;
 
 .home{
     display:flex;
-    background: url("../Images/Untitled-1\ cop3y.jpg") no-repeat;
+    background: url("MyImage.jpg"), no-repeat;
     background-size: cover;
     background-position:center ;
     align-items:center;

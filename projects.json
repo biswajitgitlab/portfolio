@@ -1,0 +1,23 @@
+[
+  {
+    "title": "Project 1",
+    "image": "https://via.placeholder.com/300",
+    "description": "A brief description of the project.",
+    "demoUrl": "#",
+    "codeUrl": "#"
+  },
+  {
+    "title": "Project 2",
+    "image": "https://via.placeholder.com/300",
+    "description": "A brief description of the project.",
+    "demoUrl": "#",
+    "codeUrl": "#"
+  },
+  {
+    "title": "Project 3",
+    "image": "https://via.placeholder.com/300",
+    "description": "A brief description of the project.",
+    "demoUrl": "#",
+    "codeUrl": "#"
+  }
+]

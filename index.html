@@ -8,13 +8,36 @@
   <link rel="stylesheet" href="styles.css" />
   <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <title>Biswajit | Web Developer</title>
+  <meta name="description" content="Portfolio of Biswajit Sarkar, a Full Stack Java Developer." />
+  <meta name="author" content="Biswajit Sarkar" />
+  <meta property="og:title" content="Biswajit Sarkar | Web Developer" />
+  <meta property="og:description" content="Portfolio of Biswajit Sarkar, a Full Stack Java Developer." />
+  <meta property="og:image" content="MyImage.jpg" />
+  <meta property="og:url" content="https://biswajit.dev" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Biswajit Sarkar | Web Developer" />
+  <meta name="twitter:description" content="Portfolio of Biswajit Sarkar, a Full Stack Java Developer." />
+  <meta name="twitter:image" content="MyImage.jpg" />
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "name": "Biswajit Sarkar",
+      "url": "https://biswajit.dev",
+      "sameAs": [
+        "https://github.com/biswajit-sarkar",
+        "https://linkedin.com/in/biswajit-sarkar"
+      ],
+      "jobTitle": "Full Stack Java Developer"
+    }
+  </script>
 </head>
 
 <body>
   <header>
     <nav class="container">
       <a href="#" class="logo">Biswajit <span>Sarkar.</span></a>
-      <div class="nav__links">
+      <div class="nav__links" role="navigation">
         <ul>
           <li><a href="#home" class="nav__link">Home</a></li>
           <li><a href="#about" class="nav__link">About</a></li>
@@ -27,9 +50,9 @@
           <a href="#"><i class="ri-linkedin-box-fill"></i></a>
           <a href="#"><i class="ri-instagram-line"></i></a>
         </div>
-        <span class="nav__close"><i class="ri-close-line"></i></span>
+        <span class="nav__close" role="button" aria-label="Close menu"><i class="ri-close-line"></i></span>
       </div>
-      <span class="nav__menu"><i class="ri-menu-line"></i></span>
+      <span class="nav__menu" role="button" aria-label="Open menu"><i class="ri-menu-line"></i></span>
     </nav>
   </header>
 
@@ -103,41 +126,7 @@
       <div class="portfolio__content">
         <span class="subtitle">My Portfolio</span>
         <h2>Featured Projects</h2>
-        <div class="portfolio__grid">
-          <div class="project">
-            <img src="https://via.placeholder.com/300" alt="Project 1" />
-            <h3>Project 1</h3>
-            <p>
-              A brief description of the project.
-            </p>
-            <div class="btn__group">
-              <a href="#" class="btn btn-secondary">View Demo</a>
-              <a href="#" class="btn btn-secondary">View Code</a>
-            </div>
-          </div>
-          <div class="project">
-            <img src="https://via.placeholder.com/300" alt="Project 2" />
-            <h3>Project 2</h3>
-            <p>
-              A brief description of the project.
-            </p>
-            <div class="btn__group">
-              <a href="#" class="btn btn-secondary">View Demo</a>
-              <a href="#" class="btn btn-secondary">View Code</a>
-            </div>
-          </div>
-          <div class="project">
-            <img src="https://via.placeholder.com/300" alt="Project 3" />
-            <h3>Project 3</h3>
-            <p>
-              A brief description of the project.
-            </p>
-            <div class="btn__group">
-              <a href="#" class="btn btn-secondary">View Demo</a>
-              <a href="#" class="btn btn-secondary">View Code</a>
-            </div>
-          </div>
-        </div>
+        <div class="portfolio__grid"></div>
       </div>
     </section>
 

@@ -49,4 +49,24 @@ const scrollUp = () => {
   }
 };
 window.addEventListener("scroll", scrollUp);
+const portfolioGrid = document.querySelector(".portfolio__grid");
+
+fetch("projects.json")
+  .then((response) => response.json())
+  .then((projects) => {
+    projects.forEach((project) => {
+      const projectCard = document.createElement("div");
+      projectCard.classList.add("project");
+      projectCard.innerHTML = `
+        <img src="${project.image}" alt="${project.title}" />
+        <h3>${project.title}</h3>
+        <p>${project.description}</p>
+        <div class="btn__group">
+          <a href="${project.demoUrl}" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">View Demo</a>
+          <a href="${project.codeUrl}" class="btn btn-secondary" target="_blank" rel="noopener noreferrer">View Code</a>
+        </div>
+      `;
+      portfolioGrid.appendChild(projectCard);
+    });
+  });
 
